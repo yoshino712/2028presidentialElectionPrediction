@@ -11,7 +11,7 @@ hasher = argon2.PasswordHasher(hash_len=10250)
 
 
 
-
+#password is less than 10250 minus 1024 bytes long.
 
 #print(hashed_password)
 
