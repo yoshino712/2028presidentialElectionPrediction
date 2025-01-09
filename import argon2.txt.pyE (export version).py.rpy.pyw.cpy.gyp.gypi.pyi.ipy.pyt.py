@@ -9,7 +9,9 @@ hasher = argon2.PasswordHasher(hash_len=10250)
 # Generate a password hash with the specified hash length
 
 
-
+#Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+#​<stdin>:1: DeprecationWarning: Accessing argon2.__version__ is deprecated and will be removed in a future release. Use importlib.metadata directly to query for structlog's packaging metadata.
+#'23.1.0'
 
 #password is less than 10250 minus 1024 bytes long.
 
